@@ -37,7 +37,18 @@
                 }
             </style>
         </noscript>
+        <style>
+            #screenshot-hero {
+                width: 40vw;
+                border-radius: 20px;
+            }
 
+            @media screen and (max-width: 768px) {
+                #screenshot-hero {
+                    width: 82vw;
+                }
+            }
+        </style>
         <!-- Google tag (gtag.js) -->
         <script
             async
@@ -445,8 +456,8 @@
                         data-aos="fade-in"
                     >
                         <img
+                            id="screenshot-hero"
                             src="assets/images/screenshot.jpg"
-                            style="width: 800px; border-radius: 20px"
                         />
                     </div>
                     <!-- / Hero Graphic-->
